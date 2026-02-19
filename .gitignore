@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+.local/
+.ipython/
+.jupyter/
+
+# NVIDIA
+.nv/
+
+
+# History
+*.sqlite
+.bash_history
+
+# OS
+.DS_Store
+

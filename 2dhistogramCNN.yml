@@ -1,0 +1,45 @@
+name: CNN_OGLE_legacy
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.8
+
+  # core numérico
+  - numpy=1.23.5
+  - scipy=1.10.1
+  - pandas=2.0.3
+
+  # tensorflow / keras (como en deep)
+  - tensorflow=2.4.1
+  - keras=2.4.3
+  - h5py=2.10.0
+
+  # machine learning
+  - scikit-learn=1.0.2
+  - imbalanced-learn
+  - joblib
+
+  # paralelismo y sistema
+  - psutil
+  - pandarallel=1.6.4
+
+  # visualización
+  - matplotlib=3.7.2
+  - seaborn=0.12.2
+  - plotly=5.9.0
+
+  # astro
+  - astropy=5.1
+
+  # notebook (mínimo necesario)
+  - notebook=6.5.4
+  - ipykernel
+
+  - pip
+
+  - pip:
+      - wget==3.2
+      - ray==2.6.1
+      - gdown
+
