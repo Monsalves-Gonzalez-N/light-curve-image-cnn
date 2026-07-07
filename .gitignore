@@ -19,3 +19,12 @@ __pycache__/
 # OS
 .DS_Store
 
+
+# ML artifacts and local caches
+.cache/
+.keras/
+Weights/
+*.pkl
+*.h5
+*.ckpt*
+checkpoint
